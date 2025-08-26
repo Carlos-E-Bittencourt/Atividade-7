@@ -1,0 +1,31 @@
+
+Estrutura do banco:
+autores: id_autor, nome, nacionalidade, ano_nascimento.
+livros: id_livro, titulo, genero, ano_publicacao, id_autor (FK).
+leitores: id_leitor, nome, email, telefone.
+emprestimos: id_emprestimo, id_livro (FK), id_leitor (FK), data_emprestimo, data_devolucao.
+O banco deve ser criado e populado no phpMyAdmin.
+
+Regras de negócio:
+Um autor pode ter vários livros, mas um livro pertence a apenas um autor.
+Um livro só pode ser emprestado se não houver outro empréstimo ativo (sem data de devolução).
+O ano de publicação do livro deve ser maior que 1500 e menor ou igual ao ano atual.
+A data de devolução não pode ser anterior à data de empréstimo.
+Cada leitor pode ter no máximo 3 empréstimos ativos ao mesmo tempo.
+Funcionalidades exigidas:
+Criar, listar (com filtros e paginação), atualizar e excluir registros em cada tabela.
+Filtrar livros por gênero, autor ou ano.
+Listar empréstimos ativos e concluídos separadamente.
+Listar todos os livros emprestados a um leitor específico.
+Não Funcionalidades exigidas:
+CSS simples
+README.md organizado
+Entrega
+Repositório no GitHub contendo:
+Projeto PHP.
+Pasta db/ com db.sql.
+Arquivo README.md explicando:
+Como rodar no XAMPP.
+Como configurar a conexão com o banco.
+Como executar os scripts.
+Como testar cada CRUD.
