@@ -27,7 +27,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto p-1">
                             <li class="nav-item ms-5" >
-                                <a class="nav-link active" aria-current="page" href="public/autores/read.php">Autores</a>
+                                <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+                            </li>
+                            <li class="nav-item ms-5" >
+                                <a class="nav-link" href="public/autores/read.php">Autores</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link" href="public/livros/read.php">Livros</a>

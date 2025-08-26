@@ -18,27 +18,6 @@
             <?php include __DIR__ . '/public/partes/header.php'; ?>
         </div>
 
-
-
-        <div class="container">
-        <div class="row">
-            <div class="col-sm">
-            Uma de três colunas
-            </div>
-            <div class="col-sm">
-            Uma de três colunas
-            </div>
-            <div class="col-sm">
-            Uma de três colunas
-            </div>
-        </div>
-        </div>
-
-
-        <div class="row">
-            <?php include __DIR__ . '/public/partes/footer.php'; ?>
-        </div>
-
     </div>
 
 </body>
