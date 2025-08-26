@@ -13,7 +13,7 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista Autores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -29,16 +29,13 @@ $result = $conn->query($sql);
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <a href="create.php" class="nav-item btn btn-outline-light">Adicionar Autor</a>
+                <a href="../../index.php" class="nav-item btn btn-outline-light">Voltar</a>
             </div>
-
         </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row ms-5 mt-5 me-5">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <a href="../../index.php" class="nav-item btn btn-outline-light">Voltar</a>
-            </div>
             <table>
                 <thead>
                     <tr>

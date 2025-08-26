@@ -27,16 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto p-1">
                             <li class="nav-item ms-5" >
-                                <a class="nav-link active" aria-current="page" href="../autores/read.php">Autores</a>
+                                <a class="nav-link active" aria-current="page" href="public/autores/read.php">Autores</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="../livros/read.php">Livros</a>
+                                <a class="nav-link" href="public/livros/read.php">Livros</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="../leitores/read.php">Leitores</a>
+                                <a class="nav-link" href="public/leitores/read.php">Leitores</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link" href="../emprestimos/read.php">Empréstimos</a>
+                                <a class="nav-link" href="public/emprestimos/read.php">Empréstimos</a>
                             </li>
                         </ul>
                     </div>
