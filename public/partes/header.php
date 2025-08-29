@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futbolas Studio</title>
+    <title>Livrinhos Studio</title>
 
     <link rel="stylesheet" href="/../../2025_atividades_enzo/Atividade-6/styles/style.css">
 
@@ -20,7 +20,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid p-1 ms-5 me-5">
                     <a class="navbar-brand fs-4" href="#"></a>
-                    <a class="navbar-brand" href="#">Futbolas Studio</a>
+                    <a class="navbar-brand" href="#">Livrinhos Studio</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
